@@ -14,10 +14,10 @@
         $section.slideUp();
         $section.find('select, input').each(function(){
             if ( ($(this).attr('type')=='radio') || ($(this).attr('type')=='checkbox') ) {
-                $(this).prop('checked', false).trigger('change');
+                //$(this).prop('checked', false).trigger('change');
             }
             else{
-                $(this).val('').trigger('change');
+                //$(this).val('').trigger('change');
             }
         });
       }
